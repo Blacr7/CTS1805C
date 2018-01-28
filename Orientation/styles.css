@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: verdana;
+	background-color:#272727;
+}
+
+#center {
+	margin: auto;
+	width: 50%;
+	padding-top: 5%;
+	display: grid;
+	grid-gap: 50px 100px;
+	grid-template-columns: auto auto auto;
+}
+
+.holdContent{
+	width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px 25px;
+	background-color: #747474
+}
+
+.contentHeader {
+	  background-color: #14a75f;
+	  padding: 10px;
+	  text-align: center;
+	  border-radius: 25px;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+.contentBottom {
+	  padding: 10px;
+	  text-align: left;
+
+  }
+
+  .footer {
+    position: fixed;
+	bottom: 0;
+	left: 0;
+    width: 100%;
+	word-spacing: 30px;
+	background-color: #272727;
+	color: white;
+}
