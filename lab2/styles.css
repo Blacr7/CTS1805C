@@ -1,0 +1,21 @@
+body {
+    font-family: verdana;
+    background-color: #1f2833
+}
+
+.topBorder{
+    display:block;
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+    background-image: url("Dreamweaver-CS6-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+    background-color: #7395ae;
+    border-radius: 20%;
+}
